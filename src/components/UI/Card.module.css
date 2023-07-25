@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 .card {
   padding: 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   border-radius: 14px;
   background-color: white;
 }
+=======
+.card {
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-color: white;
+}
+>>>>>>> eba53c6f2b6f44debbed755320e1457d8486a734

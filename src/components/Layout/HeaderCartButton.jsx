@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useContext, useEffect, useState } from "react";
 
 import CartIcon from "../Cart/CartIcon";
@@ -41,3 +42,21 @@ const HeaderCartButton = (props) => {
 };
 
 export default HeaderCartButton;
+=======
+import CartIcon from "../Cart/CartIcon";
+import Classes from "./HeaderCartButton.module.css";
+
+const HeaderCartButton = (props) => {
+  return (
+    <button className={Classes.button}>
+      <span className={Classes.icon}>
+        <CartIcon />
+      </span>
+      <span>Your Cart</span>
+      <span className={Classes.badge}>0</span>
+    </button>
+  );
+};
+
+export default HeaderCartButton;
+>>>>>>> eba53c6f2b6f44debbed755320e1457d8486a734
